@@ -1,0 +1,39 @@
+# CCS Build Directories
+Debug/
+Release/
+Debug__TI/
+Release_TI/
+
+# Object and executable files
+*.o
+*.a
+*.out
+*.elf
+*.hex
+*.bin
+
+# CCS specific files
+# .launches/
+# .settings/
+# .metadata/
+
+# Backup files
+*.bak
+*~
+*.swp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE files (if using other IDEs too)
+.vscode/
+.idea/
+
+# Build artifacts
+*.d
+*.map
+
+# SystemView recordings (optional - add if you don't want to track traces)
+*.SVDat
+ThirdParty/SEGGER_Records/
